@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <string>
-// #include <windows.h>
+#include <windows.h>
 using namespace std;
 
 struct AnsiiCodeEscapes
@@ -815,8 +815,9 @@ int main()
     while (true)
     {
         PlayerMove(board, 1);
-        // Sleep(400);
+        Sleep(400);
         AI_Move(board, 0);
+        
     }
     return 0;
 }
