@@ -818,6 +818,7 @@ int main()
         Sleep(400);
         AI_Move(board, 0);
         //Test
+        //TEst 2
         
     }
     return 0;
