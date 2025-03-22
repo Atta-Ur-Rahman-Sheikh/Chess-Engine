@@ -817,6 +817,7 @@ int main()
         PlayerMove(board, 1);
         Sleep(400);
         AI_Move(board, 0);
+        //Test
         
     }
     return 0;
